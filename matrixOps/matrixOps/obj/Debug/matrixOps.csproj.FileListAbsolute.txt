@@ -1,0 +1,18 @@
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\bin\Debug\matrixOps.exe.config
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\bin\Debug\matrixOps.exe
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\bin\Debug\matrixOps.pdb
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.csprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.matrixOps.resources
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.Properties.Resources.resources
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.csproj.GenerateResource.Cache
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.exe
+E:\Dropbox\Dropbox\School\CIS3374 - Quality Assurance and Testing\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.pdb
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\bin\Debug\matrixOps.exe.config
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.exe
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.pdb
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\bin\Debug\matrixOps.exe
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\bin\Debug\matrixOps.pdb
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.csprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.matrixOps.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.Properties.Resources.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\matrixOps\matrixOps\obj\Debug\matrixOps.csproj.GenerateResource.Cache

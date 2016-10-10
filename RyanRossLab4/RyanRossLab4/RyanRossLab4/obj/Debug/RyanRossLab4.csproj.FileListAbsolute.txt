@@ -1,0 +1,15 @@
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\bin\Debug\RyanRossLab4.exe.config
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\bin\Debug\RyanRossLab4.exe
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\bin\Debug\RyanRossLab4.pdb
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.csprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.Form1.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.Properties.Resources.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.csproj.GenerateResource.Cache
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.exe
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.pdb
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.Form2.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.Form3.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.Form4.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.Form5.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.frmInvoiceTotal.resources
+E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\RyanRossLab4\RyanRossLab4\RyanRossLab4\obj\Debug\RyanRossLab4.frmSalesTax.resources
