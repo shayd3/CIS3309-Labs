@@ -206,6 +206,7 @@ namespace matrixOps
                         MessageBox.Show("Rows of Matrix A must match Cols of B, and Cols of A must match Rows of B.");
                     }
 
+
                 }
                 else
                 if (op == "+")// If Add is checked
