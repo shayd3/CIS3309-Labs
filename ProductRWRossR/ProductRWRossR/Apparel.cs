@@ -14,7 +14,7 @@ namespace ProductRWRossR
 
         public Apparel() { }
 
-        public Apparel(string color, string manufacturer, string material)
+        public Apparel(string type, string id, string desc, double price, int qty, string color, string manufacturer, string material) : base(type, id, desc, price, qty)
         {
             this.Color = color;
             this.Manufacturer = manufacturer;
@@ -36,7 +36,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

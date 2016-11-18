@@ -12,7 +12,7 @@ namespace ProductRWRossR
 
         public Entertainment() { }
 
-        public Entertainment(TimeSpan runTime)
+        public Entertainment(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime) :base(type, id, desc, price, qty, releaseDate,numDisks,size,typeDisk)
         {
             this.runTime = runTime;
         }
@@ -45,7 +45,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

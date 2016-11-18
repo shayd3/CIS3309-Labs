@@ -16,7 +16,7 @@ namespace ProductRWRossR
 
         public Disk() { }
 
-        public Disk(int numDisks, int size, string typeDisk)
+        public Disk(string type, string id, string desc, double price, int qty, DateTime releaseDate,int numDisks, int size, string typeDisk) : base(type, id, desc, price, qty, releaseDate)
         {
             this.NumDisks = numDisks;
             this.Size = size;
@@ -39,7 +39,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

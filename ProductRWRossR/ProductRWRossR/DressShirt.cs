@@ -13,7 +13,7 @@ namespace ProductRWRossR
 
         public DressShirt() { }
 
-        public DressShirt(int neck, int sleeve)
+        public DressShirt(string type, string id, string desc, double price, int qty, string color, string manufacturer, string material, int neck, int sleeve) : base (type, id, desc, price, qty, color, manufacturer, material)
         {
             this.Neck = neck;
             this.Sleeve = sleeve;
@@ -34,7 +34,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

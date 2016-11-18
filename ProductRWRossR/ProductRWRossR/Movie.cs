@@ -13,7 +13,7 @@ namespace ProductRWRossR
 
         public Movie() { }
 
-        public Movie(string director, string producer)
+        public Movie(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime,string director, string producer) : base(type, id, desc, price, qty, releaseDate, numDisks, size, typeDisk, runTime)
         {
             this.Director = director;
             this.Producer = producer;
@@ -34,7 +34,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

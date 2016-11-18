@@ -12,17 +12,12 @@ namespace ProductRWRossR
         public string ID { get; set; }
         public double Price { get; set; }
 
-        internal void Add(Product product)
-        {
-            throw new NotImplementedException();
-        }
-
         public int Qty { get; set; }
         public string Type { get; set; }
 
         public Product() { }
 
-        public Product(string desc, string id, double price, int qty, string type)
+        public Product(string type, string id, string desc , double price, int qty)
         {
             this.Desc = desc;
             this.ID = id;
@@ -33,7 +28,7 @@ namespace ProductRWRossR
 
         public virtual string getDisplayText(string sep)
         {
-            string text = Desc + sep + ID + sep + Price + sep + Qty + sep + Type;
+            string text = Type + sep + ID + sep + Desc + sep + Price + sep + Qty;
 
             return text;
         }
@@ -47,7 +42,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

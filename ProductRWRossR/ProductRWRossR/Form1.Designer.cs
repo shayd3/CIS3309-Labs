@@ -33,7 +33,7 @@
             this.lblID = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.lblDescription = new System.Windows.Forms.Label();
-            this.txtDescription = new System.Windows.Forms.TextBox();
+            this.txtDesc = new System.Windows.Forms.TextBox();
             this.lblPrice = new System.Windows.Forms.Label();
             this.txtPrice = new System.Windows.Forms.TextBox();
             this.lblQuantity = new System.Windows.Forms.Label();
@@ -104,12 +104,12 @@
             this.lblDescription.TabIndex = 0;
             this.lblDescription.Text = "Description";
             // 
-            // txtDescription
+            // txtDesc
             // 
-            this.txtDescription.Location = new System.Drawing.Point(97, 62);
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(213, 20);
-            this.txtDescription.TabIndex = 1;
+            this.txtDesc.Location = new System.Drawing.Point(97, 62);
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.Size = new System.Drawing.Size(213, 20);
+            this.txtDesc.TabIndex = 1;
             // 
             // lblPrice
             // 
@@ -279,6 +279,7 @@
             this.btnWrite.TabIndex = 2;
             this.btnWrite.Text = "Write";
             this.btnWrite.UseVisualStyleBackColor = true;
+            this.btnWrite.Click += new System.EventHandler(this.btnWrite_Click);
             // 
             // btnRead
             // 
@@ -288,6 +289,7 @@
             this.btnRead.TabIndex = 2;
             this.btnRead.Text = "Read";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnNext
             // 
@@ -297,6 +299,7 @@
             this.btnNext.TabIndex = 2;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnPrev
             // 
@@ -306,6 +309,7 @@
             this.btnPrev.TabIndex = 2;
             this.btnPrev.Text = "Previous";
             this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
             // 
             // btnWriteBin
             // 
@@ -315,6 +319,7 @@
             this.btnWriteBin.TabIndex = 2;
             this.btnWriteBin.Text = "Write Bin";
             this.btnWriteBin.UseVisualStyleBackColor = true;
+            this.btnWriteBin.Click += new System.EventHandler(this.btnWriteBin_Click);
             // 
             // btnReadBin
             // 
@@ -324,6 +329,7 @@
             this.btnReadBin.TabIndex = 2;
             this.btnReadBin.Text = "Read Bin";
             this.btnReadBin.UseVisualStyleBackColor = true;
+            this.btnReadBin.Click += new System.EventHandler(this.btnReadBin_Click);
             // 
             // btnExit
             // 
@@ -333,6 +339,7 @@
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
@@ -360,7 +367,7 @@
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.txtVar2);
             this.Controls.Add(this.lblVar6);
-            this.Controls.Add(this.txtDescription);
+            this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.lblVar1);
             this.Controls.Add(this.lblVar7);
             this.Controls.Add(this.lblID);
@@ -373,7 +380,8 @@
             this.Controls.Add(this.txtType);
             this.Controls.Add(this.lblType);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Products";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -386,7 +394,7 @@
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.TextBox txtDescription;
+        private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.Label lblPrice;
         private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.Label lblQuantity;

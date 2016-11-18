@@ -16,7 +16,7 @@ namespace ProductRWRossR
 
         public Music() { }
 
-        public Music(string artist, string genre, string label)
+        public Music(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime, string artist, string label, string genre ):base(type, id, desc, price, qty, releaseDate, numDisks,size,typeDisk,runTime)
         {
             this.Artist = artist;
             this.Genre = genre;
@@ -39,7 +39,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

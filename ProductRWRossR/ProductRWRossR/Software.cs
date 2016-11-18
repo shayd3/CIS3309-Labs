@@ -12,7 +12,7 @@ namespace ProductRWRossR
 
         public Software() { }
 
-        public Software(string typeSoft)
+        public Software(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk,string typeSoft) : base(type, id, desc, price, qty, releaseDate, numDisks, size, typeDisk)
         {
             this.TypeSoft = typeSoft; 
         }
@@ -33,7 +33,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

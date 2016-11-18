@@ -12,7 +12,7 @@ namespace ProductRWRossR
 
         public Media() { }
 
-        public Media(DateTime releaseDate)
+        public Media(string type, string id, string desc, double price, int qty, DateTime releaseDate): base(type, id, desc, price, qty)
         {
             this.releaseDate = releaseDate;
         }
@@ -44,7 +44,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

@@ -13,7 +13,7 @@ namespace ProductRWRossR
 
         public Pants() { }
 
-        public Pants(int inseam, int waist)
+        public Pants(string type, string id, string desc, double price, int qty, string color, string manufacturer, string material, int waist, int inseam) : base(type, id, desc, price, qty, color, manufacturer, material)
         {
             this.Inseam = inseam;
             this.Waist = waist;
@@ -34,7 +34,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }

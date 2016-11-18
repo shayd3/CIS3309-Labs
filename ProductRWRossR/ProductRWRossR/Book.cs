@@ -14,7 +14,7 @@ namespace ProductRWRossR
 
         public Book() { }
 
-        public Book(string author, int numPages, string publisher)
+        public Book(string type, string id, string desc, double price, int qty, DateTime releaseDate, string author, int numPages  , string publisher) : base (type, id, desc, price, qty, releaseDate)
         {
             this.Author = author;
             this.NumPages = numPages;
@@ -36,7 +36,7 @@ namespace ProductRWRossR
 
         public override string ToString()
         {
-            string ToStringString = getDisplayText("/n");
+            string ToStringString = getDisplayText(" ");
 
             return ToStringString;
         }
