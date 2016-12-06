@@ -12,7 +12,7 @@ namespace ProductPOS___Ryan_Ross
 
         public Entertainment() { }
 
-        public Entertainment(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime) :base(type, id, desc, price, qty, releaseDate,numDisks,size,typeDisk)
+        public Entertainment(string type, string id, string desc, double price, int qty, string releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime) :base(type, id, desc, price, qty, releaseDate,numDisks,size,typeDisk)
         {
             this.runTime = runTime;
         }

@@ -14,7 +14,7 @@ namespace ProductPOS___Ryan_Ross
 
         public Book() { }
 
-        public Book(string type, string id, string desc, double price, int qty, DateTime releaseDate, string author, int numPages  , string publisher) : base (type, id, desc, price, qty, releaseDate)
+        public Book(string type, string id, string desc, double price, int qty, string releaseDate, string author, int numPages  , string publisher) : base (type, id, desc, price, qty, releaseDate)
         {
             this.Author = author;
             this.NumPages = numPages;

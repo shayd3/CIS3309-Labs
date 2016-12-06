@@ -74,7 +74,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(668, 9);
+            this.label4.Location = new System.Drawing.Point(880, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 0;
@@ -96,11 +96,11 @@
             // 
             // txtReceipt
             // 
-            this.txtReceipt.Location = new System.Drawing.Point(478, 26);
+            this.txtReceipt.Location = new System.Drawing.Point(607, 25);
             this.txtReceipt.Multiline = true;
             this.txtReceipt.Name = "txtReceipt";
             this.txtReceipt.ReadOnly = true;
-            this.txtReceipt.Size = new System.Drawing.Size(234, 394);
+            this.txtReceipt.Size = new System.Drawing.Size(317, 394);
             this.txtReceipt.TabIndex = 1;
             // 
             // btnGetDescription
@@ -111,6 +111,7 @@
             this.btnGetDescription.TabIndex = 2;
             this.btnGetDescription.Text = "Get Description";
             this.btnGetDescription.UseVisualStyleBackColor = true;
+            this.btnGetDescription.Click += new System.EventHandler(this.btnGetDescription_Click);
             // 
             // btnAddProduct
             // 
@@ -120,6 +121,7 @@
             this.btnAddProduct.TabIndex = 2;
             this.btnAddProduct.Text = "Add Product";
             this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // btnRemoveProduct
             // 
@@ -129,6 +131,7 @@
             this.btnRemoveProduct.TabIndex = 2;
             this.btnRemoveProduct.Text = "Remove Selected Product";
             this.btnRemoveProduct.UseVisualStyleBackColor = true;
+            this.btnRemoveProduct.Click += new System.EventHandler(this.btnRemoveProduct_Click);
             // 
             // btnCancel
             // 
@@ -138,6 +141,7 @@
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Cancel Sale";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnEnter
             // 
@@ -147,6 +151,7 @@
             this.btnEnter.TabIndex = 2;
             this.btnEnter.Text = "Enter Sale";
             this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // btnSearch
             // 
@@ -156,20 +161,21 @@
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search Products";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // lstScreen
             // 
             this.lstScreen.FormattingEnabled = true;
             this.lstScreen.Location = new System.Drawing.Point(249, 26);
             this.lstScreen.Name = "lstScreen";
-            this.lstScreen.Size = new System.Drawing.Size(223, 394);
+            this.lstScreen.Size = new System.Drawing.Size(352, 394);
             this.lstScreen.TabIndex = 3;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(724, 439);
+            this.ClientSize = new System.Drawing.Size(936, 439);
             this.Controls.Add(this.lstScreen);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnEnter);
@@ -186,6 +192,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmMain";
             this.Text = "Product POS";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

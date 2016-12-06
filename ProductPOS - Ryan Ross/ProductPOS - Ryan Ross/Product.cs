@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductPOS___Ryan_Ross
 {
-    class Product
+    public class Product
     {
         public string Desc { get; set; }
         public string ID { get; set; }

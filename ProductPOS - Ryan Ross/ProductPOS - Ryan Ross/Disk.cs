@@ -16,7 +16,7 @@ namespace ProductPOS___Ryan_Ross
 
         public Disk() { }
 
-        public Disk(string type, string id, string desc, double price, int qty, DateTime releaseDate,int numDisks, int size, string typeDisk) : base(type, id, desc, price, qty, releaseDate)
+        public Disk(string type, string id, string desc, double price, int qty, string releaseDate,int numDisks, int size, string typeDisk) : base(type, id, desc, price, qty, releaseDate)
         {
             this.NumDisks = numDisks;
             this.Size = size;

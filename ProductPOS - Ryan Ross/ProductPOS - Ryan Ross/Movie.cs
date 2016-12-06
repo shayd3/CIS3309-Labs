@@ -13,7 +13,7 @@ namespace ProductPOS___Ryan_Ross
 
         public Movie() { }
 
-        public Movie(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime,string director, string producer) : base(type, id, desc, price, qty, releaseDate, numDisks, size, typeDisk, runTime)
+        public Movie(string type, string id, string desc, double price, int qty, string releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime,string director, string producer) : base(type, id, desc, price, qty, releaseDate, numDisks, size, typeDisk, runTime)
         {
             this.Director = director;
             this.Producer = producer;

@@ -108,23 +108,23 @@ namespace ProductPOS___Ryan_Ross
             else if (splitEntry[0] == "Book")
             {
                 this.Add(new Book(splitEntry[0], splitEntry[1], splitEntry[2], double.Parse((splitEntry[3])), int.Parse((splitEntry[4])), 
-                    DateTime.Parse(splitEntry[5]), splitEntry[6], int.Parse(splitEntry[7]), splitEntry[8]));
+                    splitEntry[5], splitEntry[6], int.Parse(splitEntry[7]), splitEntry[8]));
             }
             else if (splitEntry[0] == "Software")
             {
                 this.Add(new Software(splitEntry[0], splitEntry[1], splitEntry[2], double.Parse((splitEntry[3])), int.Parse((splitEntry[4])),
-                    DateTime.Parse(splitEntry[5]), int.Parse(splitEntry[6]), int.Parse(splitEntry[7]), splitEntry[8], splitEntry[9]));
+                  splitEntry[5], int.Parse(splitEntry[6]), int.Parse(splitEntry[7]), splitEntry[8], splitEntry[9]));
             }
             else if (splitEntry[0] == "Movie")
             {
                 this.Add(new Movie(splitEntry[0], splitEntry[1], splitEntry[2], double.Parse((splitEntry[3])), int.Parse((splitEntry[4])),
-                       DateTime.Parse(splitEntry[5]), int.Parse(splitEntry[6]), int.Parse(splitEntry[7]), splitEntry[8], TimeSpan.Parse(splitEntry[9]), splitEntry[10], splitEntry[11]));
+                      splitEntry[5], int.Parse(splitEntry[6]), int.Parse(splitEntry[7]), splitEntry[8], TimeSpan.Parse(splitEntry[9]), splitEntry[10], splitEntry[11]));
 
             }
             else if (splitEntry[0] == "Music")
             {
                 this.Add(new Music(splitEntry[0], splitEntry[1], splitEntry[2], double.Parse((splitEntry[3])), int.Parse((splitEntry[4])),
-                       DateTime.Parse(splitEntry[5]), int.Parse(splitEntry[6]), int.Parse(splitEntry[7]), splitEntry[8], TimeSpan.Parse(splitEntry[9]), splitEntry[10], splitEntry[12], splitEntry[11]));
+                       splitEntry[5], int.Parse(splitEntry[6]), int.Parse(splitEntry[7]), splitEntry[8], TimeSpan.Parse(splitEntry[9]), splitEntry[10], splitEntry[12], splitEntry[11]));
             }
         }
 

@@ -16,7 +16,7 @@ namespace ProductPOS___Ryan_Ross
 
         public Music() { }
 
-        public Music(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime, string artist, string label, string genre ):base(type, id, desc, price, qty, releaseDate, numDisks,size,typeDisk,runTime)
+        public Music(string type, string id, string desc, double price, int qty, string releaseDate, int numDisks, int size, string typeDisk, TimeSpan runTime, string artist, string label, string genre ):base(type, id, desc, price, qty, releaseDate, numDisks,size,typeDisk,runTime)
         {
             this.Artist = artist;
             this.Genre = genre;

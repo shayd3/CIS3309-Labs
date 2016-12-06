@@ -12,9 +12,9 @@ namespace ProductPOS___Ryan_Ross
 
         public Media() { }
 
-        public Media(string type, string id, string desc, double price, int qty, DateTime releaseDate): base(type, id, desc, price, qty)
+        public Media(string type, string id, string desc, double price, int qty, string rDate): base(type, id, desc, price, qty)
         {
-            this.releaseDate = releaseDate;
+            this.ReleaseDate = rDate;
         }
 
         public string ReleaseDate
@@ -25,7 +25,8 @@ namespace ProductPOS___Ryan_Ross
             }
             set
             {
-                DateTime.TryParse(value, out releaseDate);
+                this.releaseDate = DateTime.Parse(value);
+                //DateTime.TryParse(value, out releaseDate);
             }
         }
 

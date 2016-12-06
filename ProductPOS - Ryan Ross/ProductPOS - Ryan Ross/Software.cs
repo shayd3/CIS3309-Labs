@@ -12,7 +12,7 @@ namespace ProductPOS___Ryan_Ross
 
         public Software() { }
 
-        public Software(string type, string id, string desc, double price, int qty, DateTime releaseDate, int numDisks, int size, string typeDisk,string typeSoft) : base(type, id, desc, price, qty, releaseDate, numDisks, size, typeDisk)
+        public Software(string type, string id, string desc, double price, int qty, string releaseDate, int numDisks, int size, string typeDisk,string typeSoft) : base(type, id, desc, price, qty, releaseDate, numDisks, size, typeDisk)
         {
             this.TypeSoft = typeSoft; 
         }
