@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item>
+        <ItemNo>3245649</ItemNo>
+        <Description>Agapanthus</Description>
+        <Price>7.95</Price>
+    </Item>
+    <Item>
+        <ItemNo>3762592</ItemNo>
+        <Description>Limonium</Description>
+        <Price>6.95</Price>
+    </Item>
+    <Item>
+        <ItemNo>1235468</ItemNo>
+        <Description>The world is a beautiful place</Description>
+        <Price>60</Price>
+    </Item>
+</Items>
