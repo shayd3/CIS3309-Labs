@@ -1,6 +1,0 @@
-C:\Users\tuf40347\Downloads\Exercise starts\Chapter 03\CalculateLetterGrade\CalculateLetterGrade\bin\Debug\CalculateLetterGrade.exe.config
-C:\Users\tuf40347\Downloads\Exercise starts\Chapter 03\CalculateLetterGrade\CalculateLetterGrade\obj\Debug\CalculateLetterGrade.exe
-C:\Users\tuf40347\Downloads\Exercise starts\Chapter 03\CalculateLetterGrade\CalculateLetterGrade\obj\Debug\CalculateLetterGrade.pdb
-E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\Lab2RyanRoss\CalculateLetterGrade\bin\Debug\CalculateLetterGrade.exe.config
-E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\Lab2RyanRoss\CalculateLetterGrade\obj\Debug\CalculateLetterGrade.exe
-E:\Dropbox\Dropbox\School\CIS3309 - Component-Based Software Design\Labs\Lab2RyanRoss\CalculateLetterGrade\obj\Debug\CalculateLetterGrade.pdb
